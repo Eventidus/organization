@@ -4,11 +4,11 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <img src="./assets/images/logo.png" />
+    <img src="./assets/images/logo.png" class="w-16" />
     <nav>
-      <router-link to="/home">主页</router-link>
-      <router-link to="/about">关于</router-link>
-      <router-link to="/join">加入</router-link>
+      <router-link to="/home" class="mr-2">主页</router-link>
+      <router-link to="/about" class="mr-2">关于</router-link>
+      <router-link to="/join" class="mr-2">加入</router-link>
     </nav>
   </header>
   <router-view></router-view>
@@ -19,10 +19,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0.55em 0;
-  img {
-    width: 2.5rem;
-  }
+  padding: 1vw 0;
   nav {
     text-align: center;
   }

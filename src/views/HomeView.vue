@@ -2,7 +2,7 @@
   <div class="gradual mb-4">
     <span ref="typing"></span>
   </div>
-  <div class="summary">
+  <div class="summary w-80 mb-8">
     <div class="pic">
       <div class="cover"></div>
     </div>
@@ -11,7 +11,24 @@
       <p class="p2 m-2">毕竟看口型这行为本身，就不是美的，只是生存本能所迫</p>
     </div>
   </div>
-  ahjbdv
+  <div class="summary w-80">
+    <div class="pic">
+      <div class="cover"></div>
+    </div>
+    <div class="title">
+      <p class="p1 m-2">ā á ǎ à</p>
+      <p class="p2 m-2">毕竟看口型这行为本身，就不是美的，只是生存本能所迫</p>
+    </div>
+  </div>
+  <div class="summary w-80">
+    <div class="pic">
+      <div class="cover"></div>
+    </div>
+    <div class="title">
+      <p class="p1 m-2">ā á ǎ à</p>
+      <p class="p2 m-2">毕竟看口型这行为本身，就不是美的，只是生存本能所迫</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -44,27 +61,24 @@ onMounted(() => {
 .summary {
   display: flex;
   justify-content: center;
-  align-items: center;
   border: #c9cde3;
-  margin: 0 auto;
+  margin: 1rem auto;
   border-style: solid;
   border-width: 1px;
-  width: 30rem;
-  height: 12rem;
+  border-radius: 2%;
   .pic {
-    width: 15rem;
-    height: 12rem;
-  }
-  .cover {
-    background-image: url(../assets/images/cover.jpg);
-    background-size: cover;
-    border-radius: 2%;
-    width: 100%;
-    height: 100%;
+    width: 67%;
+    height: 11rem;
+    .cover {
+      background-image: url(../assets/images/cover.jpg);
+      background-size: cover;
+      border-radius: 2%;
+      width: 100%;
+      height: 100%;
+    }
   }
   .title {
     display: block;
-    width: 15rem;
     .p1 {
       background: -webkit-linear-gradient(
         315deg,
