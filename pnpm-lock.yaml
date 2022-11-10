@@ -4,7 +4,6 @@ specifiers:
   '@rushstack/eslint-patch': ^1.1.4
   '@vitejs/plugin-vue': ^3.1.2
   '@vue/eslint-config-prettier': ^7.0.0
-  amfe-flexible: ^2.2.1
   autoprefixer: ^10.4.13
   element-plus: ^2.2.20
   eslint: ^8.22.0
@@ -26,7 +25,6 @@ specifiers:
   vue-router: ^4.1.5
 
 dependencies:
-  amfe-flexible: 2.2.1
   element-plus: 2.2.20_vue@3.2.41
   normalize.css: 8.0.1
   pinia: 2.0.23_vue@3.2.41
@@ -386,10 +384,6 @@ packages:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
     dev: true
-
-  /amfe-flexible/2.2.1:
-    resolution: {integrity: sha512-L2VfvDzoETBjhRptg5u/IUuzHSuxm22JpSRb404p/TBGeRfwWmmNEbB+TFPIP/sS/+pbM18bCFH9QnMojLuPNw==}
-    dev: false
 
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
